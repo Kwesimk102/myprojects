@@ -1,0 +1,104 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  
+}
+
+
+.start {
+  color: orange;
+  background-color: chartreuse;
+  border: 1px solid rgba(204, 207, 208, 0.654);
+  border-radius: 10px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.attendee {
+  color: #fff;
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+.Account, .Department, .Timetable, .Announcement, .Lecturer, .Student, .Slides {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Account:hover, .Department:hover, .Timetable:hover, .Announcement:hover, .Lecturer:hover, .Student:hover, .Slides:hover {
+  transform: translateY(-5px);
+  color: rgb(154, 232, 18);
+}
+
+
+.heading {
+  color: #333;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+
+.Media {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin-top: 0;
+}
+
+.Links {
+  list-style: none;
+  padding: 0;
+}
+
+.Links li {
+  margin-bottom: 5px;
+}
+
+.Links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Links a:hover {
+  text-decoration: underline;
+}
