@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="account.css">
+</head>
+<body>
+    <main class="accountmain">
+        <form action="account.html" method="post">
+            <h3 class="titleform">Membership Form<br>
+            Freshers kindly fill the form <br>
+        Welcome to the ATU'family and community</h3>
+            <div class="accountname">
+                <label for="username">Full Name:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="accountid">
+                <label for="studentid"> Student ID:</label>
+                <input type="text" id="Student ID" name="Student ID" pattern="[A-Za-z0-9]+" title="Only letters and numbers are allowed">
+            </div>
+            
+            <div class="accountemail">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="acountpassword">
+                <label for="Password">Password:</label>
+                <input type="text" id="Password" name="Password"  required>
+            </div>
+            <div class="confirmpassword">
+                <label for="Confirm Password">Confirm Password:</label>
+                <input type="text" id="Confirm Password" name="Confirm Password" required>
+            </div>
+                
+    
+            <div class="login">
+                <label for="Log in" >Log In</label>
+                <input type="checkbox" id="Log In" name="Log In" required>
+            </div>
+            <div class="Submit">
+                <button class="Submitbutton">Submit</button>
+            </div>
+        </form>
+         </main>"
+</body>
+</html>

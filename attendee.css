@@ -52,9 +52,10 @@ body {
 }
 
 .Account:hover, .Department:hover, .Timetable:hover, .Announcement:hover, .Lecturer:hover, .Student:hover, .Slides:hover {
-  transform: translateY(-5px);
+  transform: rotateY(35deg);
   color: rgb(154, 232, 18);
 }
+
 
 
 .heading {
@@ -101,4 +102,22 @@ footer p {
 
 .Links a:hover {
   text-decoration: underline;
+}
+
+
+#Account section
+.Account{
+  text-decoration: none;
+}
+.Account a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Account a:hover {
+    color: rgb(154, 232, 18); 
+    text-decoration: none;
+}
+.Account a:before{
+  text-decoration: none;
 }

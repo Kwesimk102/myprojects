@@ -1,0 +1,27 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Creates responsive columns */
+  gap: 20px; /* Adds spacing between grid items */
+  padding: 20px; /* Adds padding around the grid */
+  margin: 20px; /* Adds margin around the grid */
+}
+
+.member {
+  background-color: #e84949;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.member:hover {
+
+  transform: rotateY(30deg);
+  color: rgb(154, 232, 18);
+}
+
+.heading {
+  color: #333;
+  font-size: 20px;
+  margin-top: 0;
+}

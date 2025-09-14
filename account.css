@@ -1,0 +1,83 @@
+
+
+body {
+    background-color: limegreen;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+
+.accountmain {
+    border: 1px solid ;
+    border-radius: 8px;
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titleform {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.accountname,.accountid,.accountemail,.acountpassword,.confirmpassword,.login,.Submit {
+    margin-bottom: 15px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 5px;
+}
+
+
+.Submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.Submitbutton:hover {
+    background-color: rgb(7, 127, 55);
+}
+.Submitbutton {
+    background-color: rgb(99, 225, 99);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
